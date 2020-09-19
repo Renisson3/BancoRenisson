@@ -38,6 +38,7 @@ Para executar o projeto com o .Net Core, executar o comando abaixo:
 $ cd BancoRenisson.App
 $ dotnet restore
 $ dotnet build
+$ dotnet run
 ```
 
 O comando irá compilar o projeto e realizar a sua execução.
