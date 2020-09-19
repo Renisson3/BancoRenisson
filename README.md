@@ -111,9 +111,9 @@ Para o calculo do juros foi criado um JOB que é executado uma vez por dia, mas 
 
 ```json
 "JobScheduleDiary": {
-    "TimeToUpdate": 5,
-    "StartHour": 1,
-    "EndHour": 23
+    "TimeToUpdate": 50,
+    "StartHour": 2,
+    "EndHour": 1
   }
 ```
 
