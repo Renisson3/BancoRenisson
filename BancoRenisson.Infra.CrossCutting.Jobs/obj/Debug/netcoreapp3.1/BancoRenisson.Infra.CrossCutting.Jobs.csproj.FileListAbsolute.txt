@@ -1,0 +1,16 @@
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.deps.json
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.csprojAssemblyReference.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.AssemblyInfoInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.AssemblyInfo.cs
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Helper.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Helper.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.csproj.CopyComplete
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting.Jobs\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Jobs.csproj.CoreCompileInputs.cache

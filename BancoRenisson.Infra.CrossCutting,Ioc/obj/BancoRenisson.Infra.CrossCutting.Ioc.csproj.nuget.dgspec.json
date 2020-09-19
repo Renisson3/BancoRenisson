@@ -1,0 +1,444 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Ioc\\BancoRenisson.Infra.CrossCutting.Ioc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\BancoRenisson.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\BancoRenisson.Domain.Core.csproj",
+        "projectName": "BancoRenisson.Domain.Core",
+        "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\BancoRenisson.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\renis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\renis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj",
+        "projectName": "BancoRenisson.Domain",
+        "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj",
+        "packagesPath": "C:\\Users\\renis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\renis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\BancoRenisson.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\BancoRenisson.Domain.Core.csproj"
+              },
+              "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Helper\\BancoRenisson.Infra.CrossCutting.Helper.csproj": {
+                "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Helper\\BancoRenisson.Infra.CrossCutting.Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Helper\\BancoRenisson.Infra.CrossCutting.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Helper\\BancoRenisson.Infra.CrossCutting.Helper.csproj",
+        "projectName": "BancoRenisson.Infra.CrossCutting.Helper",
+        "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Helper\\BancoRenisson.Infra.CrossCutting.Helper.csproj",
+        "packagesPath": "C:\\Users\\renis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\renis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Ioc\\BancoRenisson.Infra.CrossCutting.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Ioc\\BancoRenisson.Infra.CrossCutting.Ioc.csproj",
+        "projectName": "BancoRenisson.Infra.CrossCutting.Ioc",
+        "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Ioc\\BancoRenisson.Infra.CrossCutting.Ioc.csproj",
+        "packagesPath": "C:\\Users\\renis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting,Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\renis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting.Jobs\\BancoRenisson.Infra.CrossCutting.Jobs.csproj": {
+                "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting.Jobs\\BancoRenisson.Infra.CrossCutting.Jobs.csproj"
+              },
+              "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.Data\\BancoRenisson.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.Data\\BancoRenisson.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.13, )"
+            },
+            "Hangfire.MemoryStorage.Core": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting.Jobs\\BancoRenisson.Infra.CrossCutting.Jobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting.Jobs\\BancoRenisson.Infra.CrossCutting.Jobs.csproj",
+        "projectName": "BancoRenisson.Infra.CrossCutting.Jobs",
+        "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting.Jobs\\BancoRenisson.Infra.CrossCutting.Jobs.csproj",
+        "packagesPath": "C:\\Users\\renis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.CrossCutting.Jobs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\renis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj": {
+                "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.13, )"
+            },
+            "Hangfire.MemoryStorage.Core": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.Data\\BancoRenisson.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.Data\\BancoRenisson.Infra.Data.csproj",
+        "projectName": "BancoRenisson.Infra.Data",
+        "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.Data\\BancoRenisson.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\renis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\renis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\BancoRenisson.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain.Core\\BancoRenisson.Domain.Core.csproj"
+              },
+              "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj": {
+                "projectPath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

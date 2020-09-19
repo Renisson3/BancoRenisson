@@ -1,0 +1,14 @@
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.deps.json
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.csprojAssemblyReference.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.AssemblyInfoInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.AssemblyInfo.cs
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.csproj.CoreCompileInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.csproj.CopyComplete
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Helper.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting.Helper.pdb

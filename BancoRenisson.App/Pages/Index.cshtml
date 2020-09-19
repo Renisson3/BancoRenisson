@@ -1,0 +1,87 @@
+﻿@page
+@model IndextModel
+@{
+    ViewData["Title"] = "Desafio Warren Renisson";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div style="color: red">
+    @Html.ValidationSummary()
+</div>
+
+<form method="post">
+    <br />
+    <br />
+    <h3 style="text-align:center" class="display-5">Abertura de Conta</h3>
+
+    <div class="input-group col-md-10">
+        <input type="text" asp-for="Current.UserName" class="form-control" placeholder="Nome Do titular" aria-label="Username" aria-describedby="basic-addon1">
+        <button style="margin-left: 5px" asp-page-handler="OpenAccount" type="submit" class="btn btn-info create">Abrir Conta Corrente<i class="glyphicon glyphicon-open"></i></button>
+    </div>
+</form>
+<br />
+<form method="post">
+    <h3 style="text-align:center" class="display-5">Operações da conta</h3>
+
+    <div class="input-group col-md-10">
+        <input style="margin: 5px" type="number" asp-for="Current.NumberAccount" step="1" min="1" class="form-control" placeholder="Número Da Conta" aria-label="Username" aria-describedby="basic-addon1">
+        <div style="margin: 5px" class="input-group-prepend">
+            <span class="input-group-text">R$</span>
+            <input type="number" styler="margin-top:5px" min="0.01" asp-for="Movement.ValueMovement" placeholder="Valor da operação" step="0.010" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control currency" id="c2" />
+        </div>
+    </div>
+
+    <div class="input-group col-md-9">
+        <input style="margin: 5px" type="text" asp-for="Movement.Description" class="form-control" placeholder="Descrição do Pagamento" aria-label="Description" aria-describedby="basic-addon1">
+        <button asp-page-handler="Deposit" type="submit" class="btn btn-success create">Depositar<i class="glyphicon glyphicon-open"></i></button>
+        <button style="margin-left: 10px" asp-page-handler="Withdraw" type="submit" class="btn btn-danger create">Sacar<i class="glyphicon glyphicon-open"></i></button>
+        <button style="margin-left: 10px" asp-page-handler="Payment" type="submit" class="btn btn-warning create">Pagar<i class="glyphicon glyphicon-open"></i></button>
+    </div>
+</form>
+<br />
+<h3 style="text-align:center" class="display-5">Contas Abertas</h3>
+<br />
+<table class="table">
+    <tr>
+        <th>@Html.DisplayName("Número da conta")</th>
+        <th>@Html.DisplayName("Nome do titular")</th>
+        <th>@Html.DisplayName("Saldo R$")</th>
+        <th>@Html.DisplayName("Data da abertura")</th>
+        <th>@Html.DisplayName("Data da ultima movimentação")</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.Currents.OrderBy(x => x.NumberAccount))
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.NumberAccount)</td>
+            <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+            <td>@Html.DisplayFor(modelItem => item.Value)</td>
+            <td>@Html.DisplayFor(modelItem => item.DateCreation)</td>
+            <td>@Html.DisplayFor(modelItem => item.DateLastUpdate)</td>
+        </tr>
+    }
+</table>
+<br />
+<h3 style="text-align:center" class="display-5">Ultimas Movimentações</h3>
+<br />
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayName("Data da operação")</th>
+        <th>@Html.DisplayName("Operação")</th>
+        <th>@Html.DisplayName("Número da conta")</th>
+        <th>@Html.DisplayName("Valor R$")</th>
+        <th>@Html.DisplayName("Descrição")</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.Movements.OrderByDescending(x => x.DateCreation))
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.DateCreation)</td>
+            <td>@Html.DisplayFor(modelItem => item.OperationDescription)</td>
+            <td>@Html.DisplayFor(modelItem => item.CurrentAccount.NumberAccount)</td>
+            <td>@Html.DisplayFor(modelItem => item.ValueMovement)</td>
+            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+        </tr>
+    }
+</table>

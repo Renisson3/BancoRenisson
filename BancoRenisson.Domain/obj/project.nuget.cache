@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mgSfOzwshbA6XM7Y5HarANlviSLHNMH4JPF8BKbCVFVdoaoYiJ9/5pd1Ug9CQQIz9VkjgGTUryZgOJX6dsuAqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renis\\source\\repos\\BancoRenisson\\BancoRenisson.Domain\\BancoRenisson.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renis\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\renis\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\renis\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
+    "C:\\Users\\renis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

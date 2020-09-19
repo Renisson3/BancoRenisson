@@ -1,0 +1,9 @@
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.deps.json
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\bin\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.AssemblyInfo.cs
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Domain.Core\obj\Debug\netcoreapp3.1\BancoRenisson.Domain.Core.csprojAssemblyReference.cache

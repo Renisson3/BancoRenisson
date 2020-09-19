@@ -1,0 +1,8 @@
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.deps.json
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\bin\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.pdb
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.AssemblyInfoInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.AssemblyInfo.cs
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.csproj.CoreCompileInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.dll
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Helper\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Helper.pdb

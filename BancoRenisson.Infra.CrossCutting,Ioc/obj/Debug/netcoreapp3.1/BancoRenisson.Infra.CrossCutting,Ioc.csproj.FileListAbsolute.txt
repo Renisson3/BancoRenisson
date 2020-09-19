@@ -1,0 +1,4 @@
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Ioc\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Ioc.csprojAssemblyReference.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Ioc\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Ioc.AssemblyInfoInputs.cache
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Ioc\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Ioc.AssemblyInfo.cs
+C:\Users\renis\source\repos\BancoRenisson\BancoRenisson.Infra.CrossCutting,Ioc\obj\Debug\netcoreapp3.1\BancoRenisson.Infra.CrossCutting,Ioc.csproj.CoreCompileInputs.cache
